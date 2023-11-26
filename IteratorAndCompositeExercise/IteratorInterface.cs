@@ -14,5 +14,6 @@ namespace IteratorAndCompositeExercise
     {
         Boolean hasNext();
         Object Next();
+        void remove();
     }
 }

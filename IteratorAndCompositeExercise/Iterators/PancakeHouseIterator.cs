@@ -29,5 +29,15 @@ namespace IteratorAndCompositeExercise.Iterators
         {
             return position < items.Count;
         }
+
+        public void remove()
+        {
+            if (position <= 0)
+            {
+                throw new InvalidOperationException("You can't remove an item until you've done at least one Next()");
+            }
+
+            items.RemoveAt(position - 1);
+        }
     }
 }
