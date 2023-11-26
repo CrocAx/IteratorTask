@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace IteratorAndCompositeExercise
 {
+    public interface Menu
+    {
+        public Iterator createIterator();
+    }
     public interface Iterator
     {
         Boolean hasNext();

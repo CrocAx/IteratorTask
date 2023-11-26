@@ -9,11 +9,6 @@ using static IteratorAndCompositeExercise.Program;
 namespace IteratorAndCompositeExercise.Iterators
 {
 
-    public interface Menu
-    {
-        public Iterator createIterator();
-    }
-
     public class PancakeHouseIterator : Iterator
     {
         ArrayList items;
